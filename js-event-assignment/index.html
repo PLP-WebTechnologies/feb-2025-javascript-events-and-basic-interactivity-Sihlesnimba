@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Event Handling Playground</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🎉 JavaScript Playground 🎮</h1>
+
+    <section>
+      <h2>1. Event Handling 🎈</h2>
+      <button id="clickBtn">Click Me!</button>
+      <div id="hoverBox">Hover over me!</div>
+      <input type="text" id="keypressInput" placeholder="Type something..." />
+      <button id="secretBtn">Secret Action (Double Click)</button>
+    </section>
+
+    <section>
+      <h2>2. Interactive Elements 🎮</h2>
+      <button id="changeBtn">Change Color</button>
+      <div id="colorBox">Watch me change</div>
+
+      <div class="gallery">
+        <img
+          id="galleryImg"
+          class="gallery-image"
+          src="https://images.unsplash.com/photo-1507643179773-3e975d7ac515?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=eric-park-QbX8A8eHfzw-unsplash.jpg&w=1920"
+          alt="Gallery Image"
+        />
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+      </div>
+
+      <div class="tabs">
+        <button class="tabBtn" data-tab="1">Tab 1</button>
+        <button class="tabBtn" data-tab="2">Tab 2</button>
+        <button class="tabBtn" data-tab="3">Tab 3</button>
+
+        <div class="tabContent" id="tab1">Content for Tab 1</div>
+        <div class="tabContent" id="tab2">Content for Tab 2</div>
+        <div class="tabContent" id="tab3">Content for Tab 3</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Form Validation 📋✅</h2>
+      <form id="myForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit">Submit</button>
+        <p id="formFeedback"></p>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

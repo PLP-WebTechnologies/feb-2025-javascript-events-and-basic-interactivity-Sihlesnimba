@@ -1,0 +1,66 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+h1 {
+  color: #333;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#hoverBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
+  margin-top: 10px;
+}
+#colorBox {
+  width: 200px;
+  height: 100px;
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 100px;
+  margin: 10px 0;
+  transition: background-color 0.5s ease;
+}
+.gallery {
+  margin: 20px 0;
+}
+.tabs {
+  margin-top: 20px;
+}
+.tabContent {
+  display: none;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+.tabContent.active {
+  display: block;
+}
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
+#formFeedback {
+  color: red;
+}
+
+.gallery-image {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.gallery-image:hover {
+  transform: scale(1.1);
+}
